@@ -1,4 +1,4 @@
-public class Calender {
+public class Calendar {
     public static void main(String args[]) {
 		int yearInput = Integer.parseInt(args[0]);
         

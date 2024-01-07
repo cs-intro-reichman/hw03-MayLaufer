@@ -15,7 +15,7 @@ public class UniqueChars {
 
         for (int i = 0; i < s.length(); i++) {
             String currChar = String.valueOf(s.charAt(i)); 
-            if (s.indexOf(currChar) == i) {
+            if (s.indexOf(currChar) == i || s.charAt(i) == ' ') {
                 newString = newString + s.charAt(i);
             }
         }
